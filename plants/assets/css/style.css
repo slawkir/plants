@@ -276,3 +276,109 @@ nav {
 }
 
 /*--------------SERVICE END----------------*/
+
+/*--------------PRICES START----------------*/
+.prices__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+  padding-bottom: 115px;
+}
+
+.tarif__container {
+  display: flex;
+  flex-direction: column;
+}
+
+.tarif__title {
+  font-family: 'Inter', sans-serif;
+  font-style: 700;
+  font-size: 40px;
+  line-height: 48px;
+  color: #000000;
+  letter-spacing: 0.4px;
+  margin-bottom: 60px;
+}
+
+.tarif__types {
+  border: 1px solid #E3E1D5;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 282px;
+  /* padding-top: 32px;
+  padding-bottom: 32px; */
+  padding: 32px 41px;
+}
+
+/* .tarif__item {
+  width: 250px;
+  height: 50px;
+} */
+
+.tarif__item select {
+  background: transparent;
+  width: 230px;
+  font-size: 16px;
+  border: none;
+  height: 50px;
+  font-family: 'Inter', sans-serif;
+  font-style: 700;
+  font-size: 20px;
+  line-height: 20px;
+  color: #000000;
+}
+
+.tarif__item {
+  padding-left: 40px;
+  /* margin: 50px; */
+  width: 250px;
+  height: 50px;
+  border: none;
+  border-radius: 20px;
+  overflow: hidden;
+  background: url("../icons/accordion_btn.svg") 93% / 10% no-repeat #EDF2EC;;
+}
+
+.gardeners {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 452px;
+  height: 405px;
+}
+
+.gardeners__title {
+  font-family: 'Inter', sans-serif;
+  font-style: 700;
+  font-size: 40px;
+  line-height: 50px;
+  color: #000000;
+  text-align: right;
+  letter-spacing: 0.5px;
+}
+
+.gardeners__btn {
+  width: 161px;
+  height: 55px;
+  border: 1px solid #E06733;
+  border-radius: 5px;
+  letter-spacing: 1.5px;
+  font-family: 'Inika', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #E06733;
+}
+
+.gardeners__picture {
+  display: block;
+  width: 152px;
+  height: 175px;
+ 
+}
+/*--------------PRICES END----------------*/
+
