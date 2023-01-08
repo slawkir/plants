@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.wrapper {
+  width: 1222px;
+  margin: 0 auto;
+}
+
+/*--------------HEADER START----------------*/
+header {
+  background: #EDF2EC;  /*Добавить padding*/
+  /* height: 134px; */
+}
+
+.header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 134px;
+}
+
+.header__logo__img {
+  width: 24px;
+  height: 24px;
+}
+
+.header__logo__link {
+  text-decoration: none;
+  color: #000000;
+}
+
+.header__logo__link-text {
+  display: inline-block;
+  font-family: 'Inika', serif;
+  font-size: 16px;
+  line-height: 20.85px;
+  height: 30px;
+  margin-left: -5px;
+  
+}
+
+nav {
+  width: 450px;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.nav__item {
+  font-family: 'Inika', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 50px;
+  list-style-type: none;
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #010201;
+  letter-spacing: 1.5px;
+}
+
+.nav__link:hover {
+  color: #E06733;
+  font-weight: 700;
+}
+
+/*--------------HEADER END----------------*/
