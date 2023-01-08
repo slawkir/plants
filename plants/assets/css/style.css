@@ -414,7 +414,7 @@ nav {
 .city__list select {
   padding-left: 18px;
   background: transparent;
-  width: 230px;
+  width: 415px;
   border: none;
   height: 50px;
   font-family: 'Inter', sans-serif;
@@ -436,5 +436,70 @@ nav {
   order: 1;
 }
 /*--------------CONTACTS END----------------*/
+
+/*--------------FOOTER START----------------*/
+footer {
+  background: #FFFFFF;
+}
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+
+.copyrights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 175px;
+  height: 65px;
+}
+
+.copyrights__picture {
+  width: 19px;
+  height: 19px;
+}
+
+.copyrights__github {
+  text-decoration: none;
+}
+
+.copyrights__year, .copyrights__github {
+  font-family: 'Inter', sans-serif;
+  font-style: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  letter-spacing: 1.8px;
+}
+
+.rs-school {
+  width: 211px;
+  height: 50px;
+}
+
+.rs-school__link {
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-style: 400;
+  font-size: 20px;
+  line-height: 50px;
+  color: #000000;
+  letter-spacing: 0.5px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 186px;
+}
+
+.social__item {
+  text-decoration: none;
+}
+/*--------------FOOTER END----------------*/
+
 
 

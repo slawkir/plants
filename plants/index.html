@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Plants</title>
   <link rel="stylesheet" href="./assets/css/style.css">
-  <link rel="icon" type="image/png" href="./assets/icons/leafs.svg"/>
+  <link rel="icon" type="image/png" href="./assets/icons/leafs.svg">
 </head>
 <body>
   <header>
@@ -19,19 +19,19 @@
         <nav>
         <ul class="nav__list">
           <li class="nav__item">
-            <a href="#" class="nav__link">Home</a>
+            <a href="#welcome" class="nav__link">Home</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">About us</a>
+            <a href="#about" class="nav__link">About us</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Service</a>
+            <a href="#service" class="nav__link">Service</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Price</a>
+            <a href="#price" class="nav__link">Price</a>
           </li>
           <li class="nav__item">
-            <a href="#" class="nav__link">Contacts</a>
+            <a href="#contacts" class="nav__link">Contacts</a>
           </li>
         </ul>
       </nav>
@@ -39,7 +39,7 @@
     </div>
   </header>
   <main>
-    <section class="welcome">
+    <section class="welcome" id="welcome">
       <div class="wrapper">
         <div class="welcome__wrapper">
           <img class="welcome__background" src="./assets/img/leafs.png" alt="leafs">
@@ -51,18 +51,18 @@
         </div>
       </div>  
     </section>
-    <section class="about">
+    <section class="about" id="about">
       <div class="wrapper">
         <div class="wrapper__about">
           <div class="about__information">
             <h2 class="about__title"><span class="green">We are</span> professional experienced <span class="green">gardeners</span></h2>
             <p class="about__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. </p>            
           </div>
-          <img src="./assets/img/houseplant 1.png" alt="" class="about__background">
+          <img src="./assets/img/houseplant1.png" alt="" class="about__background">
         </div>
       </div>
     </section>
-    <section class="service">
+    <section class="service" id="service">
       <div class="wrapper">
         <div class="service__wrapper">
           <h2 class="service__title">Service and our projects</h2>
@@ -118,28 +118,28 @@
         </div>
       </div>
     </section>
-    <section class="prices">
+    <section class="prices" id="price">
       <div class="wrapper">
         <div class="prices__wrapper">
           <div class="tarif__container">
             <h2 class="tarif__title">Prices</h2>
             <div class="tarif__types">
               <div class="tarif__item">
-                <select name="" id="">
+                <select>
                   <option selected>Basics</option>
                   <option>Standard</option>
                   <option>Pro care</option>
                 </select>
               </div>
               <div class="tarif__item">
-                <select name="" id="">
+                <select>
                   <option>Basics</option>
                   <option selected>Standard</option>
                   <option>Pro care</option>
                 </select>
               </div>
               <div class="tarif__item">
-                <select name="" id="">
+                <select>
                   <option>Basics</option>
                   <option>Standard</option>
                   <option selected>Pro care</option>
@@ -156,13 +156,13 @@
         </div>
       </div>
     </section>
-    <section class="contacts">
+    <section class="contacts" id="contacts">
       <div class="wrapper">
         <div class="contacts__wrapper">
           <h2 class="contacts__title">Contact us</h2>
-          <img src="./assets/img/contact_woman 1.png" alt="woman" class="contacts__picture">
+          <img src="./assets/img/contact_woman1.png" alt="woman" class="contacts__picture">
           <div class="city__list">
-            <select name="City" id="">
+            <select>
               <option hidden>City</option>
               <option>Canandaigua, NY</option>
               <option>New York City</option>
@@ -174,6 +174,33 @@
       </div>
     </section>
   </main>
-  <footer></footer>
+  <footer>
+    <div class="wrapper">
+      <div class="footer__wrapper">
+        <div class="copyrights">
+          <img src="./assets/icons/copyrights.svg" alt="" class="copyrights__picture">
+          <span class="copyrights__year">2022</span>
+          <a class="copyrights__github" href="https://github.com/slawkir">github</a>
+        </div>
+        <div class="rs-school">
+          <a class="rs-school__link" href="https://rs.school/js-stage0/" target="_blank">Rolling Scopes School</a>
+        </div>
+        <div class="social">
+          <a href="#" class="social__item">
+            <img src="./assets/icons/inst1.svg" alt="social media">
+          </a>
+          <a href="#" class="social__item">
+            <img src="./assets/icons/fb1.svg" alt="social media">
+          </a>
+          <a href="#" class="social__item">
+            <img src="./assets/icons/tw1.svg" alt="social media">
+          </a>
+          <a href="#" class="social__item">
+            <img src="./assets/icons/pinterest1.svg" alt="social media">
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
 </body>
 </html>
