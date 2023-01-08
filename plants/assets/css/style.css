@@ -19,10 +19,13 @@ body {
   margin: 0 auto;
 }
 
+.green {
+  color: #499A18;
+}
+
 /*--------------HEADER START----------------*/
 header {
-  background: #EDF2EC;  /*Добавить padding*/
-  /* height: 134px; */
+  background: #EDF2EC;  
 }
 
 .header__wrapper {
@@ -49,7 +52,6 @@ header {
   line-height: 20.85px;
   height: 30px;
   margin-left: -5px;
-  
 }
 
 nav {
@@ -64,6 +66,7 @@ nav {
 
 .nav__item {
   font-family: 'Inika', serif;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 50px;
@@ -82,3 +85,58 @@ nav {
 }
 
 /*--------------HEADER END----------------*/
+
+
+/*--------------WELCOME START----------------*/
+.welcome {
+  background: #EDF2EC; 
+}
+
+.welcome__wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 62px;
+}
+
+.welcome__background {
+  display: block;
+  width: 449px;
+  height: 408px;
+}
+
+.welcome__information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 547px;
+  height: 376px;
+  padding-top: 36px;
+
+}
+
+.welcome__title {
+  
+  font-family: 'Inter', sans-serif;
+  font-style: 700;
+  font-size: 45px;
+  line-height: 50px;
+  color: #717171;
+}
+
+.welcome__text {
+  width: 525.44px;
+  letter-spacing: 0.6px;
+  font-family: 'Inter', sans-serif;
+  font-style: 400;
+  font-size: 20px;
+  line-height: 35px;
+  color: #636060;
+}
+
+.welcome__btn {
+  width: 158px;
+  height: 44px;
+  border: 2px solid #E06733;
+  border-radius: 10px;
+  letter-spacing: 1.2px;
+}
