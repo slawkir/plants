@@ -90,6 +90,7 @@ nav {
 /*--------------WELCOME START----------------*/
 .welcome {
   background: #EDF2EC; 
+  height: 532px;
 }
 
 .welcome__wrapper {
@@ -115,7 +116,6 @@ nav {
 }
 
 .welcome__title {
-  
   font-family: 'Inter', sans-serif;
   font-style: 700;
   font-size: 45px;
@@ -139,4 +139,48 @@ nav {
   border: 2px solid #E06733;
   border-radius: 10px;
   letter-spacing: 1.2px;
+}
+
+/*--------------WELCOME END----------------*/
+
+/*--------------ABOUT START----------------*/
+.about {
+  background: #FFFFFF;
+}
+
+.wrapper__about {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about__information {
+  width: 605px;
+  padding-top: 161px;
+
+}
+
+.about__title {
+  font-family: 'Inika', sans-serif;
+  font-style: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #E06733;
+  margin-bottom: 40px;
+}
+
+.about__text {
+  font-family: 'Inter', sans-serif;
+  font-style: 400;
+  font-size: 20px;
+  line-height: 30px;
+  color: #636060;
+  letter-spacing: 0.65px;
+}
+
+.about__background {
+  display: block;
+  margin-top: 93px;
+  margin-bottom: 94px;
+  width: 464px;
+  height: 479px;
 }
