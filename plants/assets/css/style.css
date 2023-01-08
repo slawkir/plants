@@ -312,11 +312,6 @@ nav {
   padding: 32px 41px;
 }
 
-/* .tarif__item {
-  width: 250px;
-  height: 50px;
-} */
-
 .tarif__item select {
   background: transparent;
   width: 230px;
@@ -378,7 +373,68 @@ nav {
   display: block;
   width: 152px;
   height: 175px;
- 
 }
 /*--------------PRICES END----------------*/
+
+/*--------------CONTACTS START----------------*/
+.contacts {
+  background: #EDF2EC;;
+}
+
+.contacts__wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-top: 53px;
+}
+
+.contacts__picture {
+  display: block;
+  width: 400px;
+  height: 497px;
+}
+
+.contacts__title {
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 30px;
+  width: 195px;
+  height: 51px;
+  font-family: 'Inika', serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #499A18;
+  order: 1;
+  letter-spacing: 1.1px;
+  /* padding-left: 2px; */
+}
+
+.city__list select {
+  padding-left: 18px;
+  background: transparent;
+  width: 230px;
+  border: none;
+  height: 50px;
+  font-family: 'Inter', sans-serif;
+  font-style: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #717171;
+}
+
+.city__list {
+  margin-top: 93px;
+  width: 450px;
+  height: 50px;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  background: url("../icons/accordion_btn_contact.svg") 92% / 4% no-repeat #D6E7D2;
+  order: 1;
+}
+/*--------------CONTACTS END----------------*/
+
 
