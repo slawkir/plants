@@ -4,6 +4,22 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+button:hover {
+  background: #E06733;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -77,12 +93,17 @@ nav {
   text-decoration: none;
   color: #010201;
   letter-spacing: 1.5px;
+  border: 3px solid transparent;
 }
 
 .nav__link:hover {
   color: #E06733;
-  font-weight: 700;
+  cursor: pointer;
+  border-color: #a6efd2;
+  border-radius: 5px;
+  /* transform: scale(2); */
 }
+
 
 /*--------------HEADER END----------------*/
 
@@ -221,7 +242,7 @@ nav {
   border: 1px solid #E06733;
   border-radius: 5px;
   letter-spacing: 1.5px;
-  font-family: 'Inika', serif;
+  font-family: 'Inika', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -361,7 +382,7 @@ nav {
   border: 1px solid #E06733;
   border-radius: 5px;
   letter-spacing: 1.5px;
-  font-family: 'Inika', serif;
+  font-family: 'Inika', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
