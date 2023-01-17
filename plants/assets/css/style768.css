@@ -1,0 +1,9 @@
+@media (max-width: 768px) {
+  .wrapper {
+  width: 670px;
+}
+
+.header__wrapper {
+  height: 111px;
+}
+}
