@@ -181,6 +181,59 @@
 
 /*--------------CONTACTS START----------------*/
 
+.contacts__wrapper {
+  justify-content:start;
+  align-items: center;
+  flex-direction: column;
+  width: 450px;
+  height: 739px;
+  margin: 0 auto;
+  padding-top: 0; 
+}
+
+.contacts__title {
+  display: block;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  margin-left: 0;
+  width: 202px;
+  font-size: 38px;
+  order: -1;
+}
+
+.contacts__picture {
+  width: 200px;
+  height: 249px;
+  order: 0;
+  margin-top: 250px;
+  margin-left: 20px;
+}
+
+.city__list select {
+  padding-left: 18px;
+  background: transparent;
+  width: 415px;
+  border: none;
+  height: 50px;
+  font-family: 'Inter', sans-serif;
+  font-style: 400;
+  font-size: 20px;
+  line-height: 40px;
+  color: #717171;
+}
+
+.city__list {
+  margin-top: 0; /**/
+  width: 450px;
+  height: 50px;
+  border: none;
+  border-radius: 0;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  background: url("../icons/accordion_btn_contact.svg") 92% / 4% no-repeat #D6E7D2;
+  order: -1;
+}
+
 
 
 
