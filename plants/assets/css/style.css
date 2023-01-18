@@ -262,12 +262,14 @@ nav {
   flex-direction: column;
   justify-content: flex-start;
   margin-bottom: 55px;
+  width: 330px;
+  height: 450px;
 }
 
 .service__card {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
   width: 330px;
   height: 100px;

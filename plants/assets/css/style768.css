@@ -85,6 +85,10 @@
   height: 288px;
 }
 
+.service {
+  height: 1780px;
+}
+
 .service__wrapper {
   flex-direction: column;
   justify-content: space-between;
@@ -99,7 +103,7 @@
 
 .service__array {
   margin-top: 40px;
-  /* padding-bottom: 66px; */
+  padding-bottom: 66px;
 }
 
 .service__item {
@@ -112,27 +116,26 @@
 .service__item-picture {
   width: 280px;
   height: 350px;
+  /* margin-bottom: 0; */
 }
 
 .service__card {
   width: 280px;
   height: 100px;
-  /* padding-top: 10px; */
-  padding-bottom: 20px;
-  border: 1px solid #E3E1D5;
-  border-radius: 0px 0px 20px 20px;
+  padding-top: 10px;
 }
 
 .service__card-title {
-  padding: 10px 0 14px 0;
+  padding: 0;
   font-size: 20px;
 }
 
 .service__card-text {
   letter-spacing: 0.6px;
-  width: 183px;
-  height: 42px;
+  width: 201px;
+  height: 40px;
   text-align: center;
+  margin-top: 10px;
 }
 
 
