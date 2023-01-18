@@ -16,6 +16,11 @@
   padding-top: 40px;
 }
 
+/*--------------HEADER END----------------*/
+
+
+/*--------------WELCOME START----------------*/
+
 .welcome__background {
   display: block;
   width: 280px;
@@ -48,6 +53,10 @@
   letter-spacing: 1.2px;
 }
 
+/*--------------WELCOME END----------------*/
+
+/*--------------ABOUT START----------------*/
+
 .wrapper__about {
   flex-direction: column;
   justify-content: space-between;
@@ -79,6 +88,10 @@
 .about__text {
  height: 158px;
 }
+
+/*--------------ABOUT END----------------*/
+
+/*--------------SERVICE START----------------*/
 
 .about__background {
   width: 250px;
@@ -137,6 +150,43 @@
   text-align: center;
   margin-top: 10px;
 }
+
+/*--------------SERVICE END----------------*/
+
+/*--------------PRICES START----------------*/
+
+.prices__wrapper {
+  padding-bottom: 88px;   /*????????????*/
+}
+
+.tarif__title {
+  font-size: 35px;
+  line-height: 42px;
+  padding-left: 15px;
+}
+
+.gardeners {
+  width: 296px;
+  height: 358px; 
+  margin-top: 99px;
+}
+
+.gardeners__title {
+  font-size: 25px;
+  line-height: 35px;
+  letter-spacing: 0.5px;
+}
+
+/*--------------PRICES END----------------*/
+
+/*--------------CONTACTS START----------------*/
+
+
+
+
+
+
+
 
 
 
