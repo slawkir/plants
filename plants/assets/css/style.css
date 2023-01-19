@@ -484,7 +484,7 @@ footer {
   font-size: 20px;
   line-height: 50px;
   color: #000000;
-  letter-spacing: 1.8px;
+  /* letter-spacing: 1.8px; */
 }
 
 .rs-school {
