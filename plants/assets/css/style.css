@@ -92,7 +92,6 @@ nav {
 .nav__link {
   text-decoration: none;
   color: #010201;
-  letter-spacing: 1.5px;
   border: 3px solid transparent;
 }
 
@@ -101,7 +100,6 @@ nav {
   cursor: pointer;
   border-color: #a6efd2;
   border-radius: 5px;
-  /* transform: scale(2); */
 }
 
 
@@ -133,7 +131,6 @@ nav {
   width: 547px;
   height: 376px;
   padding-top: 36px;
-
 }
 
 .welcome__title {
@@ -146,7 +143,6 @@ nav {
 
 .welcome__text {
   width: 525.44px;
-  letter-spacing: 0.6px;
   font-family: 'Inter', sans-serif;
   font-style: 400;
   font-size: 20px;
@@ -186,6 +182,7 @@ nav {
   line-height: 52px;
   color: #E06733;
   margin-bottom: 40px;
+  width: 463px;
 }
 
 .about__text {
@@ -194,7 +191,6 @@ nav {
   font-size: 20px;
   line-height: 30px;
   color: #636060;
-  letter-spacing: 0.65px;
 }
 
 .about__background {
@@ -214,6 +210,7 @@ nav {
 .service__wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding-top: 40px;
   width: 1007px;
 }
@@ -231,16 +228,16 @@ nav {
 .service__nav {
   display: flex;
   justify-content: space-between;
+  height: 50px;
   width: 560px;
   align-items: center;
 }
 
 .service__btn {
   width: 161px;
-  height: 55px;
+  height: 50px;
   border: 1px solid #E06733;
   border-radius: 5px;
-  letter-spacing: 1.5px;
   font-family: 'Inika', sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -273,7 +270,6 @@ nav {
   align-items: center;
   width: 330px;
   height: 100px;
-  /* padding-top: 10px; */
   padding-bottom: 36px;
   border: 1px solid #E3E1D5;
   border-radius: 0px 0px 20px 20px;
@@ -329,8 +325,6 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   height: 282px;
-  /* padding-top: 32px;
-  padding-bottom: 32px; */
   padding: 32px 41px;
 }
 
@@ -349,7 +343,6 @@ nav {
 
 .tarif__item {
   padding-left: 40px;
-  /* margin: 50px; */
   width: 250px;
   height: 50px;
   border: none;
@@ -429,8 +422,6 @@ nav {
   line-height: 52px;
   color: #499A18;
   order: 1;
-  letter-spacing: 1.1px;
-  /* padding-left: 2px; */
 }
 
 .city__list select {
@@ -508,7 +499,6 @@ footer {
   font-size: 20px;
   line-height: 50px;
   color: #000000;
-  letter-spacing: 0.5px;
 }
 
 .social {
