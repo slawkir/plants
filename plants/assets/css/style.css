@@ -263,6 +263,35 @@ nav {
   height: 450px;
 }
 
+.service__item-picture {
+  width: 329px;
+  height: 350px;
+}
+
+.service__item-picture-1 {
+  background-image: url(../img/service__item-picture-1-1440.png);
+}
+
+.service__item-picture-2 {
+  background-image: url(../img/service__item-picture-2-1440.png);
+}
+
+.service__item-picture-3 {
+  background-image: url(../img/service__item-picture-3-1440.png);
+}
+
+.service__item-picture-4 {
+  background-image: url(../img/service__item-picture-4-1440.png);
+}
+
+.service__item-picture-5 {
+  background-image: url(../img/service__item-picture-5-1440.png);
+}
+
+.service__item-picture-6 {
+  background-image: url(../img/service__item-picture-6-1440.png);
+}
+
 .service__card {
   display: flex;
   flex-direction: column;

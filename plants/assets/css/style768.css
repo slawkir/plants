@@ -169,6 +169,7 @@
   width: 280px;
   height: 100px;
   padding-top: 10px;
+  padding-bottom: 20px;
 }
 
 .service__card-title {
@@ -176,12 +177,18 @@
   font-size: 20px;
 }
 
-.service__card-text {
+/* .service__card-text {
   letter-spacing: 0.6px;
   width: 201px;
   height: 40px;
   text-align: center;
   margin-top: 10px;
+} */
+
+.service__card-text {
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
 }
 
 /*--------------SERVICE END----------------*/
@@ -189,7 +196,7 @@
 /*--------------PRICES START----------------*/
 
 .prices__wrapper {
-  padding-bottom: 88px;   /*????????????*/
+  padding-bottom: 88px;
 }
 
 .tarif__title {
