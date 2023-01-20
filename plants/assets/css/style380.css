@@ -1,0 +1,35 @@
+@media (max-width: 380px) {
+  .wrapper {
+    width: 330px;
+  }
+
+  /*--------------HEADER START----------------*/
+  .header__wrapper {
+    height: 96px;
+    align-items:flex-end;
+    padding: 36px 0;
+  }
+
+  .header__logo__img {
+  width: 20px;
+  height: 20px;
+}
+
+  .header__logo__link-text {
+    line-height: 21px;
+    margin-left: -5px;
+    height: 17px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .header__burger {
+    display: block;
+    background: url(../icons/burger.svg);
+    width: 40px;
+    height: 25px;
+  }
+  /*--------------HEADER END----------------*/
+}

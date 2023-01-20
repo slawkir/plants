@@ -102,6 +102,10 @@ nav {
   border-radius: 5px;
 }
 
+.header__burger {
+  display: none;
+}
+
 
 /*--------------HEADER END----------------*/
 
