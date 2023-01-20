@@ -113,4 +113,65 @@
 
   /*--------------ABOUT END----------------*/
 
+  /*--------------SERVICE START----------------*/
+  .service {
+    height: 3150px;
+  }
+
+  .service__box{
+    padding-top: 30px;
+    padding-bottom: 27px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 3150px;
+  }
+
+  .service__wrapper {
+    /* padding-top: 0; */
+    height: 183px;
+  }
+
+  .service__title {
+    width: 187px;
+    height: 69px;
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .service__nav {
+    justify-content:space-between;
+    flex-wrap: wrap;
+    height: 79px;
+    width: 252px;
+    align-items: center;
+  }
+
+  .service__btn {
+    width: 121px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .service__array {
+
+    height: 2870px;
+    /* align-items: center; */
+    padding-left: 25px;
+  }
+
+  .service__item {
+    margin-bottom: 34px;
+    width: 280px;
+    height: 450px;
+  }
+
+  .service__item:last-child {
+    margin-bottom: 0;
+  }
+
+  /*--------------SERVICE END----------------*/
+
 }

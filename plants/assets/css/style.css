@@ -223,7 +223,7 @@ nav {
   width: 306px;
   height: 94px;
   font-family: 'Inika', sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 40px;
   line-height: 52px;
   color: #499A18;
@@ -319,7 +319,7 @@ nav {
 
 .service__card-text {
   font-family: 'Inter', sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 16px;
   line-height: 20px;
   color: #717171;
