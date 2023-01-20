@@ -11,8 +11,8 @@
   }
 
   .header__logo__img {
-  width: 20px;
-  height: 20px;
+    width: 20px;
+    height: 20px;
 }
 
   .header__logo__link-text {
@@ -48,12 +48,10 @@
     padding-top: 0;
   }
 
-
-
   .welcome__information {
-  width: 330px;
-  height: 252px;
-}
+    width: 330px;
+    height: 252px;
+  }
 
   .welcome__title {
     font-size: 25px;
@@ -75,9 +73,44 @@
     line-height: 20px;
   }
 
-  
-
   /*--------------WELCOME END----------------*/
 
+  /*--------------ABOUT START----------------*/
+  .wrapper__about {
+    height: 516px;
+    padding: 30px 0 31px;
+  }
+
+  .about__information {
+    width: 330px;
+    height: 308px;
+    padding-top: 0;
+  }
+
+  .about__title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    text-align:center;
+    width: 288px;
+    height: 57.74px;
+  }
+  
+  .about__text {
+    width: 330px;
+    height: 228.38px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 21px;
+  }
+  
+  .about__background {
+    width: 150px;
+    height: 147px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  /*--------------ABOUT END----------------*/
 
 }
