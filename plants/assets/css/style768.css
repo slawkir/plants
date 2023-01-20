@@ -7,6 +7,11 @@
   height: 117px;
 }
 
+/*--------------HEADER END----------------*/
+
+
+/*--------------WELCOME START----------------*/
+
 .welcome {
   background: #EDF2EC; 
   height: 420px;
@@ -15,11 +20,6 @@
 .welcome__wrapper {
   padding-top: 40px;
 }
-
-/*--------------HEADER END----------------*/
-
-
-/*--------------WELCOME START----------------*/
 
 .welcome__background {
   display: block;
@@ -40,7 +40,6 @@
 
 .welcome__text {
   width: 340px;
-  /* letter-spacing: 0.6px; */
   font-size: 16px;
   line-height: 25px;
 }

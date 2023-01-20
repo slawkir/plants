@@ -32,4 +32,52 @@
     height: 25px;
   }
   /*--------------HEADER END----------------*/
+
+  /*--------------WELCOME START----------------*/
+
+  .welcome {
+    background: #EDF2EC; 
+    height: 300px;
+    padding: 24px 0;
+  }
+  .welcome__background {
+    display: none;
+  }
+
+  .welcome__wrapper {
+    padding-top: 0;
+  }
+
+
+
+  .welcome__information {
+  width: 330px;
+  height: 252px;
+}
+
+  .welcome__title {
+    font-size: 25px;
+    line-height: 35px;
+    height: 72px;
+    width: 330px;
+  }
+
+  .welcome__text {
+    width: 314.52px;
+    height: 105.42px;
+  }
+
+  .welcome__btn {
+    width: 100px;
+    height: 34.14px;
+    letter-spacing: 0.3px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+
+  
+
+  /*--------------WELCOME END----------------*/
+
+
 }
