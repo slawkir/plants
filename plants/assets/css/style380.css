@@ -266,7 +266,51 @@
   }
   /*--------------PRICES END----------------*/
   /*--------------CONTACTS START----------------*/
-  
+  .contacts .wrapper {
+    width: 380px;
+    height: 445px;
+    padding-top: 25px;
+  }
+
+  .contacts__wrapper {
+    justify-content:start;
+    align-items: center;
+    flex-direction: column;
+    width: 380px;
+    height: 445px;
+    /* margin: 0 auto;
+    padding-top: 0;  */
+  }
+
+  .contacts__title {
+    margin-top: 0;
+    margin-bottom: 80px;
+    width: 192px;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+  }
+
+  .city__list {
+    margin-top: -17px; /**/
+    width: 300px;
+    border: none;
+    background: url("../icons/accordion_btn_contact.svg") 92% / 4% no-repeat #D6E7D2;
+    order: -1;
+  }
+
+  .city__list select {
+    width: 280px;
+  }
+
+  .contacts__picture {
+    width: 100px;
+    height: 124.25px;
+    order: 0;
+    margin-top: 132px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
   /*--------------CONTACTS END----------------*/
 
 }
