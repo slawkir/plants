@@ -173,5 +173,64 @@
   }
 
   /*--------------SERVICE END----------------*/
+  
+  /*--------------PRICES START----------------*/
+
+  .prices {
+    height: 512px;
+  }
+  
+  .prices__wrapper {
+    flex-direction: column;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    width: 305px;
+    height: 512px;
+    margin: 0 auto;
+  }
+
+  .tarif__container {
+    justify-content: space-between;
+    align-items: center;
+    height: 302px;
+  }
+
+  .tarif__title {
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    padding-left: 0;
+    /* margin-bottom: 60px; */
+  }
+
+  .tarif__types {
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-between; */
+    width: 224px;
+    height: 235px;
+    padding: 29px 22px;
+  }
+  
+  .tarif__item select {
+    /* background: transparent; */
+    width: 160px;
+    font-size: 15px;
+    border: none;
+    height: 50px;
+    line-height: 20px;
+  }
+  
+  .tarif__item {
+    padding-left: 40px;
+    width: 180px;
+    height: 49.72px;
+    overflow: hidden;
+    background: url("../icons/accordion_btn.svg") 93% / 10% no-repeat #EDF2EC;;
+  }
+  
+  
+  
+  /*--------------PRICES END----------------*/
 
 }
