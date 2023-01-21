@@ -363,7 +363,7 @@ nav {
 
 .tarif__item select {
   background: transparent;
-  width: 230px;
+  width: 173px;
   font-size: 16px;
   border: none;
   height: 50px;
@@ -381,7 +381,7 @@ nav {
   border: none;
   border-radius: 20px;
   overflow: hidden;
-  background: url("../icons/accordion_btn.svg") 93% / 10% no-repeat #EDF2EC;;
+  background: url("../icons/accordion_btn.svg") 84% / 7% no-repeat #EDF2EC;;
 }
 
 .gardeners {
