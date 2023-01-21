@@ -181,7 +181,11 @@
   }
   
   .prices__wrapper {
+    display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
     padding-top: 25px;
     padding-bottom: 40px;
     width: 305px;
@@ -200,7 +204,7 @@
     line-height: 30px;
     color: #000000;
     padding-left: 0;
-    /* margin-bottom: 60px; */
+    margin-bottom: 40px;
   }
 
   .tarif__types {
@@ -210,24 +214,58 @@
     width: 224px;
     height: 235px;
     padding: 29px 22px;
+    
   }
   
   .tarif__item select {
     /* background: transparent; */
-    width: 160px;
+    width: 114px;
     font-size: 15px;
     border: none;
-    height: 50px;
-    line-height: 20px;
+    height: 17px;
+    line-height: 25px;
+    /* margin: 0 auto; */
   }
   
   .tarif__item {
-    padding-left: 40px;
+    /* padding-left: 30px; */
+    padding: 12.36px 45px 20.36px 28px;
     width: 180px;
     height: 49.72px;
-    overflow: hidden;
-    background: url("../icons/accordion_btn.svg") 93% / 10% no-repeat #EDF2EC;;
+    background: url("../icons/accordion_btn.svg") 76% / 11% no-repeat #EDF2EC;;
   }
+
+  .gardeners {
+    align-items: center;
+    width: 230px;
+    height: 126px;
+    margin-top: 0;
+  }
+
+  .gardeners__picture {
+    display: none;
+  }
+
+  .gardeners__title {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+
+  .gardeners__btn {
+    width: 121px;
+    height: 35px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+
+
   
   
   
