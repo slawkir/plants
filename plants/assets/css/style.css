@@ -51,6 +51,11 @@ header {
   height: 134px;
 }
 
+.header__logo:hover {
+  transform: scale(1.5);
+  transition: 1s;
+}
+
 .header__logo__img {
   width: 24px;
   height: 24px;
@@ -102,7 +107,7 @@ nav {
   border-radius: 5px;
 }
 
-.header__burger {
+.hamburger-menu {
   display: none;
 }
 /*--------------HEADER END----------------*/
@@ -200,7 +205,6 @@ nav {
   width: 464px;
   height: 479px;
 }
-
 /*--------------ABOUT END----------------*/
 
 /*--------------SERVICE START----------------*/
