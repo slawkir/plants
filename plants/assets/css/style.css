@@ -105,10 +105,7 @@ nav {
 .header__burger {
   display: none;
 }
-
-
 /*--------------HEADER END----------------*/
-
 
 /*--------------WELCOME START----------------*/
 .welcome {
@@ -161,7 +158,6 @@ nav {
   border-radius: 10px;
   letter-spacing: 1.2px;
 }
-
 /*--------------WELCOME END----------------*/
 
 /*--------------ABOUT START----------------*/
@@ -325,7 +321,6 @@ nav {
   color: #717171;
   letter-spacing: 0.6px;
 }
-
 /*--------------SERVICE END----------------*/
 
 /*--------------PRICES START----------------*/
@@ -487,6 +482,7 @@ nav {
 footer {
   background: #FFFFFF;
 }
+
 .footer__wrapper {
   display: flex;
   justify-content: space-between;
@@ -513,7 +509,7 @@ footer {
 
 .copyrights__year, .copyrights__github {
   font-family: 'Inter', sans-serif;
-  font-style: 400;
+  font-weight: 400;
   font-size: 20px;
   line-height: 50px;
   color: #000000;

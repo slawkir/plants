@@ -6,12 +6,9 @@
   .header__wrapper {
     height: 117px;
   }
-
 /*--------------HEADER END----------------*/
 
-
 /*--------------WELCOME START----------------*/
-
   .welcome {
     background: #EDF2EC; 
     height: 420px;
@@ -51,11 +48,9 @@
     border-radius: 10px;
     letter-spacing: 1.2px;
   }
-
   /*--------------WELCOME END----------------*/
   
   /*--------------ABOUT START----------------*/
-
   .wrapper__about {
     flex-direction: column;
     justify-content: space-between;
@@ -90,11 +85,9 @@
     width: 250px;
     height: 288px;
   }
-
   /*--------------ABOUT END----------------*/
   
   /*--------------SERVICE START----------------*/
-
   .service {
     height: 1780px;
   }
@@ -127,7 +120,6 @@
   }
   
   .service__item {
-    /* justify-content: space-between; */
     margin-bottom: 38px;
     width: 280px;
     height: 450px;
@@ -179,11 +171,9 @@
     line-height: 20px;
     text-align: center;
   }
-
 /*--------------SERVICE END----------------*/
 
 /*--------------PRICES START----------------*/
-
   .prices__wrapper {
     padding-bottom: 88px;
   }
@@ -205,11 +195,9 @@
     line-height: 35px;
     letter-spacing: 0.5px;
   }
-  
   /*--------------PRICES END----------------*/
   
   /*--------------CONTACTS START----------------*/
-  
   .contacts__wrapper {
     justify-content:start;
     align-items: center;
@@ -262,12 +250,9 @@
     background: url("../icons/accordion_btn_contact.svg") 92% / 4% no-repeat #D6E7D2;
     order: -1;
   }
-  
-  
   /*--------------CONTACTS END----------------*/
   
   /*--------------FOOTER START----------------*/
-  
   footer {
     height: 181px;
   }
@@ -289,9 +274,5 @@
   .rs-school__link {
     line-height: 24px;
   }
-
-
-
-
-
+  /*--------------FOOTER END----------------*/
 }
