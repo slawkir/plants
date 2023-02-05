@@ -13,6 +13,7 @@ button {
   font-weight: 400;
   font-size: 16px;
   color: #E06733;
+  transition: 2s;
 }
 
 button:hover {
@@ -23,11 +24,12 @@ button:hover {
 .button__active {
   background: #E06733;
   color: #ffffff;
-  
+  transition: 2s;
 }
 
 .blur {
   filter: blur(10px);
+  transition: 2s;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
@@ -274,6 +276,7 @@ nav {
   margin-bottom: 55px;
   width: 330px;
   height: 450px;
+  transition: 2s;
 }
 
 .service__item-picture {
