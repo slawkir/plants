@@ -1,0 +1,341 @@
+@media (max-width: 380px) {
+  .wrapper {
+    width: 330px;
+  }
+
+  /*--------------HEADER START----------------*/
+  .header__wrapper {
+    height: 96px;
+    align-items:flex-end;
+    padding: 36px 0;
+  }
+
+  .header__logo__img {
+    width: 20px;
+    height: 20px;
+  }
+
+  .header__logo__link-text {
+    line-height: 21px;
+    margin-left: -5px;
+    height: 17px;
+  }
+
+  nav {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: block;
+    width: 40px;
+    height: 25px;
+  }
+  /*--------------HEADER END----------------*/
+
+  /*--------------WELCOME START----------------*/
+  .welcome {
+    background: #EDF2EC; 
+    height: 300px;
+    padding: 24px 0;
+  }
+  .welcome__background {
+    display: none;
+  }
+
+  .welcome__wrapper {
+    padding-top: 0;
+  }
+
+  .welcome__information {
+    width: 330px;
+    height: 252px;
+  }
+
+  .welcome__title {
+    font-size: 25px;
+    line-height: 35px;
+    height: 72px;
+    width: 330px;
+  }
+
+  .welcome__text {
+    width: 314.52px;
+    height: 105.42px;
+  }
+
+  .welcome__btn {
+    width: 100px;
+    height: 34.14px;
+    letter-spacing: 0.3px;
+    font-size: 10px;
+    line-height: 20px;
+  }
+  /*--------------WELCOME END----------------*/
+
+  /*--------------ABOUT START----------------*/
+  .wrapper__about {
+    height: 516px;
+    padding: 30px 0 31px;
+  }
+
+  .about__information {
+    width: 330px;
+    height: 308px;
+    padding-top: 0;
+  }
+
+  .about__title {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 33px;
+    text-align:center;
+    width: 288px;
+    height: 57.74px;
+  }
+  
+  .about__text {
+    width: 330px;
+    height: 228.38px;
+    font-size: 15px;
+    line-height: 25px;
+    margin-top: 21px;
+  }
+  
+  .about__background {
+    width: 150px;
+    height: 147px;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  /*--------------ABOUT END----------------*/
+
+  /*--------------SERVICE START----------------*/
+  .service {
+    height: 3150px;
+  }
+
+  .service__box{
+    padding-top: 30px;
+    padding-bottom: 27px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 3150px;
+  }
+
+  .service__wrapper {
+    height: 183px;
+  }
+
+  .service__title {
+    width: 187px;
+    height: 69px;
+    font-size: 25px;
+    line-height: 33px;
+  }
+
+  .service__nav {
+    justify-content:space-between;
+    flex-wrap: wrap;
+    height: 79px;
+    width: 252px;
+    align-items: center;
+  }
+
+  .service__btn {
+    width: 121px;
+    height: 35px;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .service__array {
+
+    height: 2870px;
+    padding-left: 25px;
+  }
+
+  .service__item {
+    margin-bottom: 34px;
+    width: 280px;
+    height: 450px;
+  }
+
+  .service__item:last-child {
+    margin-bottom: 0;
+  }
+  /*--------------SERVICE END----------------*/
+  
+  /*--------------PRICES START----------------*/
+  .prices {
+    height: 512px;
+  }
+  
+  .prices__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 40px;
+    width: 305px;
+    height: 512px;
+    margin: 0 auto;
+  }
+
+  .tarif__container {
+    justify-content: space-between;
+    align-items: center;
+    height: 302px;
+  }
+
+  .tarif__title {
+    font-size: 25px;
+    line-height: 30px;
+    color: #000000;
+    padding-left: 0;
+    margin-bottom: 40px;
+  }
+
+  .tarif__types {
+    width: 224px;
+    height: 235px;
+    padding: 29px 22px;
+    
+  }
+
+  .tarif__item select {
+    width: 114px;
+    font-size: 15px;
+    border: none;
+    height: 17px;
+    line-height: 25px;
+  }
+  
+  .tarif__item {
+    padding: 12.36px 45px 20.36px 28px;
+    width: 180px;
+    height: 49.72px;
+    background: url("../icons/accordion_btn.svg") 76% / 11% no-repeat #EDF2EC;;
+  }
+
+  .gardeners {
+    align-items: center;
+    width: 230px;
+    height: 126px;
+    margin-top: 0;
+  }
+
+  .gardeners__picture {
+    display: none;
+  }
+
+  .gardeners__title {
+    font-size: 20px;
+    line-height: 35px;
+    text-align: center;
+    letter-spacing: 0.5px;
+  }
+
+  .gardeners__btn {
+    width: 121px;
+    height: 35px;
+    font-family: 'Inika';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.1px;
+  }
+  /*--------------PRICES END----------------*/
+
+  /*--------------CONTACTS START----------------*/
+  .contacts .wrapper {
+    width: 380px;
+    height: 445px;
+    padding-top: 25px;
+  }
+
+  .contacts__wrapper {
+    justify-content:start;
+    align-items: center;
+    flex-direction: column;
+    width: 380px;
+    height: 445px;
+  }
+
+  .contacts__title {
+    margin-top: 0;
+    margin-bottom: 80px;
+    width: 192px;
+    font-size: 25px;
+    line-height: 33px;
+    text-align: center;
+  }
+
+  .city__list {
+    margin-top: -17px; 
+    width: 300px;
+    border: none;
+    background: url("../icons/accordion_btn_contact.svg") 92% / 4% no-repeat #D6E7D2;
+    order: -1;
+  }
+
+  .city__list select {
+    width: 280px;
+  }
+
+  .contacts__picture {
+    width: 100px;
+    height: 124.25px;
+    order: 0;
+    margin-top: 132px;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
+  /*--------------CONTACTS END----------------*/
+
+  /*--------------FOOTER START----------------*/
+  footer {
+    width: 380px;
+    height: 146px;
+  }
+  .footer__wrapper {
+    width: 210px;
+    height: 146px;
+    padding: 22px 0 7px 0;
+  }
+
+  .copyrights {
+    width: 176px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+  }
+
+  .copyrights__year, .copyrights__github {
+    line-height: 24px;
+  }
+
+  .rs-school {
+    width: 210px;
+    height: 34px;
+  }
+
+  .social {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 188px;
+    height: 50px;
+  }
+  
+  .social__item-picture {
+    width: 32px;
+    height: 32px;
+  }
+  /*--------------FOOTER END----------------*/
+
+}
