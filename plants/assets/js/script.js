@@ -1,10 +1,17 @@
+let buttonsService = document.querySelectorAll('.service__btn');
+let buttonsServiceActive = [];
+buttonsServiceActive.length = 2;
+
 let buttonGardens = document.querySelectorAll('.service__btn')[0];
 let buttonLawn = document.querySelectorAll('.service__btn')[1];
 let buttonPlanting = document.querySelectorAll('.service__btn')[2];
 
 let allCards = document.querySelectorAll('.service__item');
 
-
+if (buttonGardens.classList.contains('button__active') && buttonPlanting.classList.contains('button__active')) { 
+  // buttonLawn.disabled = true;
+  buttonLawn.setAttribute('disabled', true);
+}
 
 let cardsWithoutGardens = [];
 for (let i = 0; i < allCards.length; i++) {
@@ -27,6 +34,9 @@ for (let i = 0; i < allCards.length; i++) {
   
 }
 
+
+
+
 buttonGardens.addEventListener('click', function () {
   cardsWithoutGardens.forEach(element => {
     if (element.classList.contains('blur')) {
@@ -34,8 +44,10 @@ buttonGardens.addEventListener('click', function () {
     } else { 
       element.classList.add('blur');
     }
-  });
+  }), toggleBtn(buttonGardens);
 });
+
+
 
 buttonPlanting.addEventListener('click', function () {
   cardsWithoutPlanting.forEach(element => {
@@ -44,7 +56,7 @@ buttonPlanting.addEventListener('click', function () {
     } else {
       element.classList.add('blur');
     }
-  });
+  }), toggleBtn(buttonPlanting);
 });
 
 buttonLawn.addEventListener('click', function () {
@@ -54,5 +66,19 @@ buttonLawn.addEventListener('click', function () {
     } else {
       element.classList.add('blur');
     }
-  });
+  }), toggleBtn(buttonLawn);
 });
+
+
+
+function toggleBtn(btn) {
+  if (btn.classList.contains('button__active')) {
+    btn.classList.remove('button__active');
+  } else {
+    btn.classList.add('button__active');
+  }
+}
+
+
+console.log(buttonsService.length);
+console.log(buttonsServiceActive.length);

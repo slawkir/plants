@@ -12,6 +12,7 @@ button {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   font-size: 16px;
+  color: #E06733;
 }
 
 button:hover {
@@ -21,7 +22,7 @@ button:hover {
 
 .button__active {
   background: #E06733;
-  color: #FFFFFF;
+  color: #ffffff;
   
 }
 
@@ -256,7 +257,6 @@ nav {
   font-weight: 400;
   font-size: 20px;
   line-height: 26px;
-  color: #E06733;
 }
 
 .service__array {
